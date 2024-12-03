@@ -3,15 +3,15 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-process.env.OWNER_NUMBER = process.env.OWNER_NUMBER || '27672709529'
-global.owner = process.env.OWNER_NUMBER.split(",")
+process.env.OWNER_NUMBER = process.env.OWNER_NUMBER || '2348168712788'
+global.owner = process.env.OWNER_NUMBER.split("2348168712788")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'crazycvv@gmail.com'
 global.github = 'https://github.com/CrazyPrince/CRAZY-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || "237694268225"
+global.sudo = process.env.SUDO || "2348168712788"
 global.devs = "27672709529"; // Don't change this❌
 global.website = 'https://github.com/CrazyPrince/CRAZY-MD' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/984e15c49561a5dd9d112.jpg'
